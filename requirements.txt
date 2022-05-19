@@ -15,10 +15,5 @@ streamlit==1.5.0
 streamlit-aggrid==0.2.3.post2
 streamlit-lottie==0.0.3
 streamlit-option-menu==0.3.2
-home_page
-data_table
-home
-descriptive
-Customer_segmentation
-Google_Trends
+
 
