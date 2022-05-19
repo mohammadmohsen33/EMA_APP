@@ -1,4 +1,3 @@
-from ast import Num
 import pandas as pd 
 import numpy as np 
 import streamlit as st 
@@ -8,7 +7,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
 from streamlit_option_menu import option_menu
-from itertools import chain
+
 
 from sklearn import tree
 from sklearn.model_selection import train_test_split
