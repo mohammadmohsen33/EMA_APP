@@ -26,7 +26,7 @@ def app():
     
     
     
-    data_tab = pd.read_csv('Marketing_campaign.csv',delimiter=';')
+    data_tab = pd.read_csv('marketing_campaign.csv',delimiter=';')
     data_tab['Dt_Customer']= pd.to_datetime(data_tab['Dt_Customer'])
 
     def convert_col_type(dictionary,data):
