@@ -177,7 +177,7 @@ def app():
         with st.expander(label= 'Interpretation'):
             st.write(list((month_counts.sort_values(by='Total New Clients',ascending=False))['Months'])[0],
             "is the peak month in which clients join our business, whereas,",list((month_counts.sort_values(by='Total New Clients',ascending=False))['Months'])[-1],
-            "is the month with the lowest number of new clients,")
+            "is the month with the lowest number of new clients.")
 
     with col_bar_category:
         # most profitable category 
